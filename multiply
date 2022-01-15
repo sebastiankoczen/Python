@@ -1,0 +1,15 @@
+def multiply(a, b):
+    result = a * b
+    return result
+    
+print('2 * 3 =', multiply(2, 3), '(oczekiwany wynik to 6)')
+print('2.5 * 4 =', multiply(2.5, 4), '(oczekiwany wynik to 10.0)')
+print('4 * 0.25 =', multiply(4, 0.25), '(oczekiwany wynik to 1.0)')
+print('0.4 * 2.5 =', multiply(0.4, 2.5), '(oczekiwany wynik to 1.0)')
+print('4 * 3 + 5 =', multiply(4, 3) + 5, '(oczekiwany wynik to 17)')
+print('10 + 2 * 6 =', 10 + multiply(2, 6), '(oczekiwany wynik to 22)')   
+ 
+print(1, multiply(2, 3))
+
+wynik = multiply(2,3)
+print(wynik)
